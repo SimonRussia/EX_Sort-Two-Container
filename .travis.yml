@@ -4,5 +4,6 @@ notifications:
   email: false
 
 script:   
-- clang++ sort_two_containers.cpp -std=c++14 -o open
-- ./open
+- cmake -H. -B_build
+- cmake --build _build
+- _build/extra
