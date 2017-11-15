@@ -4,5 +4,5 @@ notifications:
   email: false
 
 script:   
-- g++ sort_two_containers.cpp -std=c++14 -o open
+- clang++ sort_two_containers.cpp -std=c++14 -o open
 - ./open
