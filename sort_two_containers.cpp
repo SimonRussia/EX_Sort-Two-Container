@@ -9,7 +9,7 @@ bool myCompare(T i, T j) {
 
 template <typename Iterator, typename arrType>
 void merge_sort(Iterator first, Iterator last) {
-    std::sort(first, last, myCompare<arrType>);
+    sort(first, last, myCompare<arrType>);
 }
 
 template <typename Iterator1, typename Iterator2>
